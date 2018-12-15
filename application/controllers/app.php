@@ -5,8 +5,8 @@ include_once APPPATH."libraries/twitter-oauth-php-codexworld/twitteroauth.php";
 
 class App extends CI_Controller {
 
-	private $consumerKey = '3AAjNE7EQ17WvNWgjn8V1pB8h';
-	private $consumerSecret = 'BnBchQdKDLcxDSDvQLO7InaclvImvAPy9DiBoj8Z5muk5TQiSX';
+	private $consumerKey = '';
+	private $consumerSecret = '';
 	public $sessUserData;
 
 	public function index() {
